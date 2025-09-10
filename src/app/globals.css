@@ -1,4 +1,24 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@300..700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,400;0,500;0,700;1,400;1,500;1,700&display=swap');
 @import "tailwindcss";
+
+html.lenis, html.lenis body { height: auto; }
+.lenis, .lenis body { overscroll-behavior: none; }
+.lenis-smooth { scroll-behavior: auto !important; }
+.lenis-stopped { overflow: hidden; }
+
+/* Optimisasi kompositing */
+.lenis .lenis-wrapper, .lenis .lenis-content {
+  will-change: transform;
+  backface-visibility: hidden;
+  transform: translateZ(0);
+}
+
+/* iOS viewport dinamis */
+@supports (-webkit-touch-callout: none) {
+  .h-full { height: 100dvh; }
+}
 
 :root {
   --background: #ffffff;
@@ -6,10 +26,15 @@
 }
 
 @theme inline {
-  --color-background: var(--background);
-  --color-foreground: var(--foreground);
-  --font-sans: var(--font-geist-sans);
-  --font-mono: var(--font-geist-mono);
+  --font-poppins: 'Poppins', sans-serif;
+  --font-roboto: 'Roboto', sans-serif;
+  --font-space: 'Space Grotesk', sans-serif;
+  --font-permanent-marker: 'Permanent Marker', cursive;
+  --color-almost-black: #242424;
+  --color-light-grey: #e4e4e4;
+  --color-grey: #c9c9c9;
+  --color-grey-universal: #a0a0a0;
+  --color-dark-grey: #4e4e4e;
 }
 
 @media (prefers-color-scheme: dark) {
@@ -19,8 +44,11 @@
   }
 }
 
-body {
-  background: var(--background);
-  color: var(--foreground);
-  font-family: Arial, Helvetica, sans-serif;
+.hide-scrollbar::-webkit-scrollbar {
+  display: none;
 }
+.hide-scrollbar {
+  -ms-overflow-style: none;  /* IE and Edge */
+  scrollbar-width: none;     /* Firefox */
+}
+

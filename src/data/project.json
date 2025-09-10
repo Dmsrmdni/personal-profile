@@ -1,0 +1,75 @@
+[
+    {
+      "id": 1,
+      "title": "RB Control Hub",
+      "type": "Operational Platform",
+      "image": "rb.png",
+      "description": "RB Control Hub is a centralized web-based platform for PT Rusianto Bersaudara to monitor fleet, tasks, and performance in real time through interactive dashboards and reporting tools.",
+      "techstack": "Tech Stack: Blade + Bootstrap (Frontend), Laravel (Backend), PostgreSQL (Database)",
+      "link" : ""
+    },
+    {
+      "id": 2,
+      "title": "Kapalku App",
+      "type": "Mobile Application",
+      "image": "kapalku.png",
+      "description": "Kapalku is a mobile app for PT Rusianto Bersaudara that streamlines daily shipping operations with features like crew management, attendance, log book tracking, and vessel operations.",
+      "techstack": "Tech Stack: Flutter (Frontend), Laravel (Backend), PostgreSQL (Database)",
+      "link" : "https://play.google.com/store/apps/details?id=com.rb.kapalku.kapalku_app&hl=id"
+    },
+    {
+      "id": 3,
+      "title": "Sherish HRIS",
+      "type": "HRIS Platform",
+      "image": "sherish.png",
+      "description": "Sherish HRIS is a web-based system for employee management, offering modules for data, attendance with photo verification, leave, and payroll in a centralized platform.",
+      "techstack": "Tech Stack: Blade + Bootstrap (Frontend), Laravel (Backend), MySQL (Database)",
+      "link" : ""
+    },
+    {
+      "id": 4,
+      "title": "Shield on Service",
+      "type": "Company Profile Website",
+      "image": "sos.png",
+      "description": "SOS is a company profile website highlighting one of Indonesia’s largest outsourcing firms and its integrated services such as security, cleaning, manpower, and parking management.",
+      "techstack": "Tech Stack: Blade + Bootstrap (Frontend), Laravel (Backend), MySQL (Database)",
+      "link" : "https://sos.co.id/id"
+    },
+    {
+      "id": 5,
+      "title": "Autopilot City",
+      "type": "Simulation Game",
+      "image": "autopilot.png",
+      "description": "Autopilot City is a web-based simulation game where players build smart cities, manage resources, and observe outcomes through engaging interactive visuals.",
+      "techstack": "Tech Stack: Next.js + TailwindCSS (Frontend), Golang (Backend), PostgreSQL (Database)",
+      "link" : ""
+    },
+    {
+      "id": 6,
+      "title": "Negeri Jahe Merah",
+      "type": "Company Profile Website",
+      "image": "gua.png",
+      "description": "Negeri Jahe Merah is a company profile website of PT Global Usadha Arana, showcasing red ginger products, innovations, sustainability programs, and farmer empowerment.",
+      "techstack": "Tech Stack: Next.js + TailwindCSS (Frontend), Laravel + Twill CMS (Backend), MySQL (Database)",
+      "link" : "https://negerijahemerah.co.id/"
+    },
+    {
+      "id": 7,
+      "title": "Web Refinement Insight",
+      "type": "Company Profile Website",
+      "image": "insights.png",
+      "description": "Insights.id is the company profile website of PT Insight Investments Management (IIM) with a CMS and admin dashboard for easy content management and strong brand presence.",
+      "techstack": "Tech Stack: Inertia.js + TailwindCSS (Frontend), Laravel (Backend), MySQL (Database)",
+      "link" : "https://insights.id/"
+    },
+    {
+      "id": 8,
+      "title": "JAX",
+      "type": "E-Commerce Website",
+      "image": "jax.png",
+      "description": "JAX is an e-commerce website for a lifestyle vaping brand in Indonesia, combining bold visuals with seamless browsing, product details, and secure purchasing.",
+      "techstack": "Tech Stack: Blade + Bootstrap (Frontend), Laravel (Backend), MySQL (Database)",
+      "link" : "https://jax.id/"
+    }
+  ]
+  

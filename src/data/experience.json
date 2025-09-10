@@ -1,0 +1,20 @@
+[
+    {
+        "id": 1,
+        "company": "PT. Quadra Conary Indonesia (Quacon)",
+        "position": "Full-Stack Engineer",
+        "startDate": "April 2023",
+        "endDate": "March 2024",
+        "location": "Bandung, West Java",
+        "description": "As a Full-Stack Engineer at Quacon, I focused on building internal systems and client applications with Laravel and MySQL. I designed RESTful APIs, optimized performance, and worked closely with cross-functional teams to ensure reliable integrations. I also provided technical training to clients and internal teams for effective system adoption."
+    }, 
+    {
+        "id": 2,
+        "company": "PT. Padjadjaran Teknologi Informasi (PLABS.ID)",
+        "position": "Full-Stack Engineer",
+        "startDate": "April 2024",
+        "endDate": "May 2025",
+        "location": "Bandung, West Java",
+        "description": "As a Full-Stack Engineer at PLABS.ID, I was responsible for developing web applications using Laravel, Golang, MySQL, PostgreSQL, and Oracle. I collaborated with PMs, UI/UX designers, DevOps, and frontend teams to deliver scalable systems, while also contributing to code reviews, technical documentation, and mentoring interns in full-stack development."
+    }
+]

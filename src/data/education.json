@@ -1,0 +1,11 @@
+[
+    {
+        "id": 1,
+        "name": "Smk Assalaam Bandung",
+        "major": "Rekayasa Perangkat Lunak (RPL)",
+        "startDate": "2020",
+        "endDate": "2023",
+        "location": "Bandung, West Java",
+        "description": "Focused on Laravel-based web development and MySQL database systems. Supplemented my studies with basic Java programming and Flutter for mobile app prototyping."
+    }
+]
