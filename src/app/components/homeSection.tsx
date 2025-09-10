@@ -2,7 +2,8 @@ export default function HomeSection() {
     return (
         <section id="home" className="pt-18 md:pt-24 flex gap-4 md:gap-6 lg:gap-8 xl:gap-18 flex-col justify-end">
             <div className="flex flex-col gap-3">
-                <p className="font-semibold text-lg md:text-xl px-1 w-max text-almost-black">Hi! I'm Dimas Ramdani</p>
+                <p className="font-semibold text-lg md:text-xl px-1 w-max text-almost-black">Hi! I&apos;m Dimas Ramdani
+                </p>
                 <p className="text-3xl md:text-5xl lg:text-[76px] xl:text-8xl font-semibold text-gray-800 capitalize max-w-[1200px]">Building websites that deliver impactful <span className="text-[#b6bcc6]">digital experiences</span></p>
             </div>
             <div className="grid grid-cols-1 gap-4 md:grid-cols-[1fr_1.5fr] lg:grid-cols-2 items-center">
