@@ -13,18 +13,17 @@ export default function LenisProvider({ children }: { children: React.ReactNode 
 
   useEffect(() => {
     if (!wrapperRef.current || !contentRef.current) return;
-
+  
     const lenis = new Lenis({
       wrapper: wrapperRef.current,
       content: contentRef.current,
       autoRaf: true,
-      duration: isMobile ? 0.8 : 1.0,          // lebih natural
+      duration: isMobile ? 0.8 : 1.0,
       smoothWheel: true,
-      // smoothTouch: true,      // aktifkan biar mobile mulus
       syncTouch: true,
-      touchMultiplier: 1.2,   // lebih kalem, cocok mobile
+      touchMultiplier: 1.2,
     });
-
+  
     const handleClick = (e: MouseEvent) => {
       const target = (e.target as HTMLElement).closest('a[href^="#"]') as HTMLAnchorElement | null;
       if (!target) return;
@@ -34,18 +33,20 @@ export default function LenisProvider({ children }: { children: React.ReactNode 
       e.preventDefault();
       lenis.scrollTo(el as HTMLElement, { offset: -HEADER_OFFSET });
     };
+  
     document.addEventListener("click", handleClick);
-
+  
     if (location.hash) {
       const el = document.querySelector(location.hash);
       if (el) lenis.scrollTo(el as HTMLElement, { immediate: true, offset: -HEADER_OFFSET });
     }
-
+  
     return () => {
       document.removeEventListener("click", handleClick);
       lenis.destroy();
     };
-  }, []);
+  }, [isMobile]); // ✅ tambahin dependency
+  
 
   return (
     // gunakan h-screen/min-h-dvh agar tinggi viewport mobile benar
