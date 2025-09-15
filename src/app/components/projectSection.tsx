@@ -28,7 +28,7 @@ export default function ExperienceSection() {
                   href={project.link ? project.link : undefined}
                   target={project.link ? "_blank" : undefined}
                   rel={project.link ? "noopener noreferrer" : undefined}
-                  className="w-full text-center md:w-max text-md font-medium border-2 px-6 py-2 rounded-full transition-all duration-300 ease-in-out border-gray-800 text-gray-800 hover:bg-gray-800 hover:text-white cursor-pointer flex gap-1 items-center">
+                  className="w-full md:w-max text-md font-medium border-2 px-6 py-2 rounded-full transition-all duration-300 ease-in-out border-gray-800 text-gray-800 hover:bg-gray-800 hover:text-white cursor-pointer flex gap-1 items-center justify-center">
                   <span>View Project</span>
                   <svg className="w-5 h-5" width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
                     <path d="M6 18L18 6M18 6H9M18 6V15" stroke="currentColor" strokeWidth="1.5" strokeLinecap="round" strokeLinejoin="round" />

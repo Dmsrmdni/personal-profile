@@ -28,7 +28,7 @@ export default function Header() {
                             aria-controls="nav-menu"
                             className="relative cursor-pointer uppercase tracking-wide px-4 md:px-5.5 pt-2.5 w-full flex items-center justify-between" tabIndex={-1}
                         >
-                            <div className="flex items-center w-[115px] relative">
+                            <div className="flex items-center w-[130px] relative">
                                 <svg width="24" height="24" viewBox="0 0 24 24" fill="none" className={clsx("text-white transition-all", open ? "opacity-0 delay-0 duration-100" : "duration-500 opacity-100 delay-500")}>
                                     <path d="M4 8H20C20.4142 8 20.75 8.33579 20.75 8.75C20.75 9.16421 20.4142 9.5 20 9.5H4C3.58579 9.5 3.25 9.16421 3.25 8.75C3.25 8.33579 3.58579 8 4 8Z" fill="currentColor" />
                                     <path d="M4 14.5H20C20.4142 14.5 20.75 14.8358 20.75 15.25C20.75 15.6642 20.4142 16 20 16H4C3.58579 16 3.25 15.6642 3.25 15.25C3.25 14.8358 3.58579 14.5 4 14.5Z" fill="currentColor" />

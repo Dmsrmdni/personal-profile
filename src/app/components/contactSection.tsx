@@ -101,7 +101,7 @@ export default function ContactSection() {
           <button
             type="submit"
             disabled={loading}
-            className="w-full md:w-max bg-gray-800 hover:bg-gray-900 px-6 py-3 rounded-full font-medium text-white transition cursor-pointer disabled:opacity-60 flex items-center gap-1"
+            className="w-full md:w-max bg-gray-800 hover:bg-gray-900 px-6 py-3 rounded-full font-medium text-white transition cursor-pointer disabled:opacity-60 flex items-center justify-center gap-1"
           >
             {loading ? "Sending..." : "Send Message"}
             <svg className="w-5 h-5 md:w-6 md:h-6" width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
